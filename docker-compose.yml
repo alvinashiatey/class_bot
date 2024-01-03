@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  classbot:
+    build: .
+    environment:
+      DISCORD_TOKEN: ${DISCORD_TOKEN}
+    command: class_bot
