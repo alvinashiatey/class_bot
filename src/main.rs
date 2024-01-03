@@ -8,7 +8,12 @@ use serenity::{
     utils::MessageBuilder,
 };
 
-const HELP_MESSAGE: &str = "Usage: `!help <#1191911442681704598>`";
+const HELP_MESSAGE: &str = "
+    This is a bot created for the purpose of assisting with the class taught by Alvin Ashiatey.
+    The following commands are available:
+    `!help` - Displays this message.
+    `!randomize` - Randomizes the order of the students in the class.
+";
 const HELP_COMMAND: &str = "!help";
 const RANDOMIZE_COMMAND: &str = "!randomize";
 
